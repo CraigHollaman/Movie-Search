@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Media, Form, FormGroup, FormControl, Button } from 'react-bootstrap';
 
 export default class Movie extends Component {    
-    
     constructor(){
         super();  
         this.state = {
@@ -12,7 +11,6 @@ export default class Movie extends Component {
         this.handleChange = this.handleChange.bind(this);  
         this.handleSubmit = this.handleSubmit.bind(this);                               
     }
-
     handleChange(e) {
         this.setState({ searchTerm: e.target.value });        
     }
@@ -30,9 +28,7 @@ export default class Movie extends Component {
     render() {  
        const listMovies = this.state.Movies.map((movie) =>  
                
-           
-         
-<ul className="list-unstyled" key={movie.imdbID}>
+        <ul className="list-unstyled" key={movie.imdbID}>
   <Media as="li">
     <img
       width={64}
