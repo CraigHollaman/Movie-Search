@@ -31,24 +31,23 @@ export default class MovieDetails extends Component {
     const text = this.state.loading ? "loading" : this.state.movieDetail.Title
 
     return (
-      <div>  
+       
 
-         <Media>
-    <img
-      width={64}
-      height={64}
-      className="mr-3"
-      src={this.state.movieDetail.Poster}
-      alt={this.state.movieDetail.Title}
-    />
-    <Media.Body>
-      <h1>{text}</h1>
+
+
+      <div class="movie-container">
+         
+
+         <Media className="media-inner">
+    <img width={250} src={this.state.movieDetail.Poster} alt={this.state.movieDetail.Title} />
+    <Media.Body className="media-body">
+      <h3>{text}</h3>
     <p>{this.state.movieDetail.Plot}</p>
         <ul>
           <li>Genre : {this.state.movieDetail.Genre}</li>
     <li> Director: {this.state.movieDetail.Director}</li>
     <li> Actors : {this.state.movieDetail.Actors}</li>
-    <li> IMDB Score : {this.state.movieDetail.imdbRating}</li>   
+    <li> <b>IMDB Score : {this.state.movieDetail.imdbRating}</b></li>   
           </ul> 
     </Media.Body>
   </Media>

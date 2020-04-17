@@ -13,8 +13,7 @@ import MovieDetails from './MovieDetails'
             <Route path="/MovieDetails/:imdbID/:Title" component={MovieDetails} />
             <Route path="/Movie" component={Movie} />                        
             </Switch>   
-          </div>  
-          
+          </div>     
         </BrowserRouter>              
     )
   }

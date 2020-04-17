@@ -1,0 +1,32 @@
+.search-container {
+  width: 100%;
+  background-color: #006699;
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+}
+
+.search-container Form {
+  width: 100%;
+}
+
+.movie-container {
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  padding: 20px;
+}
+
+.movie-container a {
+  color: #006699;
+  font-weight: 700;
+}
+
+.movie-container .media-inner {
+  margin: 0 10px 0 10px;
+}
+
+.movie-container .media-inner span {
+  color: #CCC;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+/*# sourceMappingURL=Style.css.map */

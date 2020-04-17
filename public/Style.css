@@ -1,1 +1,48 @@
-/* No CSS *//*# sourceMappingURL=Style.css.map */
+Form {
+  width: 100%;
+}
+
+.search-container {
+  width: 100%;
+  background-color: #006699;
+  text-align: center;
+  padding: 20px 20px 10px 20px;
+}
+
+.movie-container {
+  width: 100%;
+  border-bottom: 1px solid #CCC;
+  padding: 20px;
+}
+
+.movie-container a {
+  color: #006699;
+  font-weight: 700;
+}
+
+.movie-container .media-inner {
+  margin: 0 10px 0 10px;
+}
+
+.movie-container .media-inner .media-inner span {
+  color: #CCC;
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+.media-body {
+  padding: 10px;
+}
+
+.media-body h3 {
+  font-size: 2.0em;
+}
+
+.media-body p {
+  font-size: 1.0em;
+}
+
+.media-body ul {
+  color: #FF9900;
+}
+/*# sourceMappingURL=Style.css.map */
